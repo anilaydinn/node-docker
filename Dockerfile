@@ -10,6 +10,6 @@ RUN if [ "$NODE_ENV" = "development" ]; \
         fi
 
 COPY . ./
-ENV PORT 3000
+ENV PORT 4000
 EXPOSE $PORT
 CMD ["node", "index.js"]
